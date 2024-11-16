@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 6 去中心化游戏 | The key of web3</title>
+  <meta name="description" content="Web3 book" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 6 去中心化游戏 | The key of web3" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Web3 book" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 6 去中心化游戏 | The key of web3" />
+  
+  <meta name="twitter:description" content="Web3 book" />
+  
+
+<meta name="author" content="米霖e" />
+
+
+<meta name="date" content="2024-11-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="nft.html"/>
+<link rel="next" href="web3-社交.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">关于Web3的书</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 新的互联网革命</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#两大矛盾"><i class="fa fa-check"></i><b>1.1</b> 两大矛盾</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#互联网的变革路径"><i class="fa fa-check"></i><b>1.2</b> 互联网的变革路径</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#行动方案"><i class="fa fa-check"></i><b>1.3</b> 行动方案</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html"><i class="fa fa-check"></i><b>2</b> 为什么我们需要web3</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#互联网公司的主宰服务的强大与用户的无力"><i class="fa fa-check"></i><b>2.1</b> 互联网公司的主宰：服务的强大与用户的无力</a></li>
+<li class="chapter" data-level="2.2" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#被困的互联网自由空间的需求"><i class="fa fa-check"></i><b>2.2</b> 被困的互联网：自由空间的需求</a></li>
+<li class="chapter" data-level="2.3" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0一场自下而上的互联网革命"><i class="fa fa-check"></i><b>2.3</b> Web 3.0：一场自下而上的互联网革命</a></li>
+<li class="chapter" data-level="2.4" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0-的全栈架构从硬件到经济系统"><i class="fa fa-check"></i><b>2.4</b> Web 3.0 的“全栈”架构：从硬件到经济系统</a></li>
+<li class="chapter" data-level="2.5" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0数据创造拥有与激励的新纪元"><i class="fa fa-check"></i><b>2.5</b> Web 3.0：数据创造、拥有与激励的新纪元</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="公链.html"><a href="公链.html"><i class="fa fa-check"></i><b>3</b> 公链</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="公链.html"><a href="公链.html#从比特币到以太坊"><i class="fa fa-check"></i><b>3.0.1</b> <strong>从比特币到以太坊</strong></a></li>
+<li class="chapter" data-level="3.0.2" data-path="公链.html"><a href="公链.html#以太坊为何被称为世界通用账本"><i class="fa fa-check"></i><b>3.0.2</b> <strong>以太坊为何被称为“世界通用账本”？</strong></a></li>
+<li class="chapter" data-level="3.0.3" data-path="公链.html"><a href="公链.html#ipfs为存储层提供通用解决方案"><i class="fa fa-check"></i><b>3.0.3</b> <strong>IPFS：为存储层提供通用解决方案</strong></a></li>
+<li class="chapter" data-level="3.1" data-path="公链.html"><a href="公链.html#section"><i class="fa fa-check"></i><b>3.1</b> <img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/9c08355c095d4ac280c4027542656d6c.jpg" /></a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="公链.html"><a href="公链.html#internet-computer专为-web-3.0-应用而生的公链"><i class="fa fa-check"></i><b>3.1.1</b> <strong>Internet Computer：专为 Web 3.0 应用而生的公链</strong></a></li>
+<li class="chapter" data-level="3.1.2" data-path="公链.html"><a href="公链.html#以太坊仍是领导者"><i class="fa fa-check"></i><b>3.1.2</b> <strong>以太坊仍是领导者</strong></a></li>
+<li class="chapter" data-level="3.1.3" data-path="公链.html"><a href="公链.html#总结"><i class="fa fa-check"></i><b>3.1.3</b> <strong>总结</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="身份和激励.html"><a href="身份和激励.html"><i class="fa fa-check"></i><b>4</b> 身份和激励</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="身份和激励.html"><a href="身份和激励.html#did通用的独立身份"><i class="fa fa-check"></i><b>4.1</b> DID：通用的独立身份！</a></li>
+<li class="chapter" data-level="4.2" data-path="身份和激励.html"><a href="身份和激励.html#did的应用从身份的集成到运用"><i class="fa fa-check"></i><b>4.2</b> DID的应用，从身份的集成到运用</a></li>
+<li class="chapter" data-level="4.3" data-path="身份和激励.html"><a href="身份和激励.html#did的生态架构"><i class="fa fa-check"></i><b>4.3</b> DID的生态架构</a></li>
+<li class="chapter" data-level="4.4" data-path="身份和激励.html"><a href="身份和激励.html#通证系统更精细的激励工具"><i class="fa fa-check"></i><b>4.4</b> 通证系统：更精细的激励工具</a></li>
+<li class="chapter" data-level="4.5" data-path="身份和激励.html"><a href="身份和激励.html#通证的本质"><i class="fa fa-check"></i><b>4.5</b> 通证的本质</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="身份和激励.html"><a href="身份和激励.html#通证经济"><i class="fa fa-check"></i><b>4.5.1</b> 通证经济</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="nft.html"><a href="nft.html"><i class="fa fa-check"></i><b>5</b> NFT</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="nft.html"><a href="nft.html#nft数字社会的数据确权制度"><i class="fa fa-check"></i><b>5.1</b> NFT：数字社会的数据确权制度</a></li>
+<li class="chapter" data-level="5.2" data-path="nft.html"><a href="nft.html#基于低成本及永久产权的文化发现"><i class="fa fa-check"></i><b>5.2</b> 基于低成本及永久产权的文化发现</a></li>
+<li class="chapter" data-level="5.3" data-path="nft.html"><a href="nft.html#pfp从小图片到身份表达再到社区筛选"><i class="fa fa-check"></i><b>5.3</b> PFP：从“小图片”到“身份表达”，再到社区筛选</a></li>
+<li class="chapter" data-level="5.4" data-path="nft.html"><a href="nft.html#透明表达nft在数字化营销中的商业价值"><i class="fa fa-check"></i><b>5.4</b> 透明表达：NFT在数字化营销中的商业价值</a></li>
+<li class="chapter" data-level="5.5" data-path="nft.html"><a href="nft.html#可编程性赋予nft无限可能的应用"><i class="fa fa-check"></i><b>5.5</b> 可编程性：赋予NFT无限可能的应用</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="去中心化游戏.html"><a href="去中心化游戏.html"><i class="fa fa-check"></i><b>6</b> 去中心化游戏</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="去中心化游戏.html"><a href="去中心化游戏.html#axie-infinityplay-to-earn的开创者"><i class="fa fa-check"></i><b>6.1</b> Axie Infinity：Play to Earn的开创者！</a></li>
+<li class="chapter" data-level="6.2" data-path="去中心化游戏.html"><a href="去中心化游戏.html#stepn昙花一现的x-to-earn"><i class="fa fa-check"></i><b>6.2</b> STEPN：昙花一现的X to Earn</a></li>
+<li class="chapter" data-level="6.3" data-path="去中心化游戏.html"><a href="去中心化游戏.html#为什么play可以earn"><i class="fa fa-check"></i><b>6.3</b> 为什么Play可以Earn？</a></li>
+<li class="chapter" data-level="6.4" data-path="去中心化游戏.html"><a href="去中心化游戏.html#play-to-earn的宿命赚钱效应还是死亡螺旋"><i class="fa fa-check"></i><b>6.4</b> Play to Earn的宿命，“赚钱效应”还是“死亡螺旋”？</a></li>
+<li class="chapter" data-level="6.5" data-path="去中心化游戏.html"><a href="去中心化游戏.html#另一种尝试"><i class="fa fa-check"></i><b>6.5</b> 另一种尝试</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="web3-社交.html"><a href="web3-社交.html"><i class="fa fa-check"></i><b>7</b> Web3 社交</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="web3-社交.html"><a href="web3-社交.html#社交商业模式及其去中心化重构"><i class="fa fa-check"></i><b>7.1</b> 社交商业模式及其去中心化重构</a></li>
+<li class="chapter" data-level="7.2" data-path="web3-社交.html"><a href="web3-社交.html#web-2.0中心化社交商业模式是如何运行的"><i class="fa fa-check"></i><b>7.2</b> Web 2.0中心化社交商业模式是如何运行的？</a></li>
+<li class="chapter" data-level="7.3" data-path="web3-社交.html"><a href="web3-社交.html#web-3.0去中心化社交创新关键点代币化"><i class="fa fa-check"></i><b>7.3</b> Web 3.0去中心化社交创新关键点：代币化</a></li>
+<li class="chapter" data-level="7.4" data-path="web3-社交.html"><a href="web3-社交.html#mirror去中心化内容发布平台"><i class="fa fa-check"></i><b>7.4</b> Mirror：去中心化内容发布平台</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="web3-社交.html"><a href="web3-社交.html#新的工具资助伟大的写作"><i class="fa fa-check"></i><b>7.4.1</b> “新的工具，资助伟大的写作”</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="web3-社交.html"><a href="web3-社交.html#愿景的实现路径"><i class="fa fa-check"></i><b>7.5</b> 愿景的实现路径</a></li>
+<li class="chapter" data-level="7.6" data-path="web3-社交.html"><a href="web3-社交.html#lens-protocol可组合和去中心化的社交图"><i class="fa fa-check"></i><b>7.6</b> Lens Protocol：可组合和去中心化的社交图</a></li>
+<li class="chapter" data-level="7.7" data-path="web3-社交.html"><a href="web3-社交.html#maskbook以隐私的名义把用户链接起来"><i class="fa fa-check"></i><b>7.7</b> MaskBook：以隐私的名义把用户链接起来</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html"><i class="fa fa-check"></i><b>8</b> Defi 区块链金融</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#区块链对金融基础设施的影响"><i class="fa fa-check"></i><b>8.1</b> 区块链对金融基础设施的影响</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#自助式开户"><i class="fa fa-check"></i><b>8.1.1</b> 自助式开户</a></li>
+<li class="chapter" data-level="8.1.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#清算即结算"><i class="fa fa-check"></i><b>8.1.2</b> 清算即结算</a></li>
+<li class="chapter" data-level="8.1.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#条件式交易"><i class="fa fa-check"></i><b>8.1.3</b> 条件式交易</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#法定数字货币cbdc"><i class="fa fa-check"></i><b>8.2</b> 法定数字货币CBDC</a></li>
+<li class="chapter" data-level="8.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#供应链金融多种数据技术配合服务实体经济"><i class="fa fa-check"></i><b>8.3</b> 供应链金融：多种数据技术配合服务实体经济</a></li>
+<li class="chapter" data-level="8.4" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#如何理解-defi"><i class="fa fa-check"></i><b>8.4</b> 如何理解 Defi</a></li>
+<li class="chapter" data-level="8.5" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi的三大特点"><i class="fa fa-check"></i><b>8.5</b> DeFi的三大特点</a></li>
+<li class="chapter" data-level="8.6" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi的典型商业模式"><i class="fa fa-check"></i><b>8.6</b> DeFi的典型商业模式</a>
+<ul>
+<li class="chapter" data-level="8.6.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#去中心化交易"><i class="fa fa-check"></i><b>8.6.1</b> 去中心化交易</a></li>
+<li class="chapter" data-level="8.6.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#抵押借贷"><i class="fa fa-check"></i><b>8.6.2</b> 抵押借贷</a></li>
+</ul></li>
+<li class="chapter" data-level="8.7" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi领域里值得关注的两个问题"><i class="fa fa-check"></i><b>8.7</b> DeFi领域里值得关注的两个问题</a>
+<ul>
+<li class="chapter" data-level="8.7.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#抵押借贷的系统性风险"><i class="fa fa-check"></i><b>8.7.1</b> 抵押借贷的系统性风险</a></li>
+<li class="chapter" data-level="8.7.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动池锁仓量可以引发蝴蝶效应"><i class="fa fa-check"></i><b>8.7.2</b> 流动池锁仓量可以引发蝴蝶效应</a></li>
+<li class="chapter" data-level="8.7.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#稳定币基本面的重要性"><i class="fa fa-check"></i><b>8.7.3</b> 稳定币基本面的重要性</a></li>
+</ul></li>
+<li class="chapter" data-level="8.8" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动性挖矿的风险"><i class="fa fa-check"></i><b>8.8</b> 流动性挖矿的风险</a>
+<ul>
+<li class="chapter" data-level="8.8.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动性挖矿的收益风险问题"><i class="fa fa-check"></i><b>8.8.1</b> 流动性挖矿的收益风险问题</a></li>
+<li class="chapter" data-level="8.8.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#为争夺流动性挖矿奖励产生的多层嵌套问题"><i class="fa fa-check"></i><b>8.8.2</b> 为争夺流动性挖矿奖励产生的多层嵌套问题</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="未来.html"><a href="未来.html"><i class="fa fa-check"></i><b>9</b> 未来</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="未来.html"><a href="未来.html#预见"><i class="fa fa-check"></i><b>9.1</b> 预见</a></li>
+<li class="chapter" data-level="9.2" data-path="未来.html"><a href="未来.html#选择"><i class="fa fa-check"></i><b>9.2</b> 选择</a></li>
+<li class="chapter" data-level="9.3" data-path="未来.html"><a href="未来.html#新机会"><i class="fa fa-check"></i><b>9.3</b> 新机会</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/liamamilin" target="blank">简单的Web3</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The key of web3</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="去中心化游戏" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">Chapter 6</span> 去中心化游戏<a href="去中心化游戏.html#去中心化游戏" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="axie-infinityplay-to-earn的开创者" class="section level2 hasAnchor" number="6.1">
+<h2><span class="header-section-number">6.1</span> Axie Infinity：Play to Earn的开创者！<a href="去中心化游戏.html#axie-infinityplay-to-earn的开创者" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/bd0b569754284165a5960f8775664032.jpg" /></p>
+<p>Axie Infinity是一款回合制策略游戏，主要可以提供战斗与繁育两种玩法。</p>
+<p>在战斗机制方面，Axie设置了PvE（人机对战）和PvP（玩家之间对战）两种玩法，两类战斗中的获胜者都可以获得代币奖励。</p>
+<p><img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/fe3f75bd27e44cdb81e66d88259c8679.jpg" /></p>
+<p>在宠物繁育方面，Axie设定可以通过3个基因控制6个身体部位产生变异，玩家不仅能通过出售宠物获利，而且还有概率生成属性极其稀有的超级宠物，这种“彩票”机制的设计增加了游戏的可玩性，也催生出了一批忠实的职业玩家。</p>
+<p><img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/ce25d95b3aed42919f0bf7fffe4c2e63.jpg" /></p>
+<p>至于盈利方式，Axie Infinity采用了双代币模型，即AXS和SLP，用来实现用户激励。</p>
+<p>其中，AXS 属于治理代币，类似于一个公司的股权，游戏的繁育过程需要消耗AXS，但在每个月的玩家排位赛中，排名靠前的玩家可以获得AXS代币奖励；SLP 属于效用代币，类似于一种门票，玩家通过PvP和PvE对战，可以获得SLP代币作为奖励，但玩家需要先拥有三只Axie小精灵，才有资格参加战斗，而且小精灵的繁育需要消耗SLP，每个账号每天能获取的SLP是有上限的，而且新获得的SLP有14天的锁仓期。</p>
+<p><img src="https://cdn.mathpix.com/snip/images/8T3DCAXR-2NC9T7kTVeHKwbzGV_zskjwWpnmEfL6iZg.original.fullsize.png" /></p>
+<p>另外，Axie“边玩边赚”的模式还催生了一种新的业态，就是链游公会。链游公会区别于传统游戏公会的主要特点就在于，他们是基于游戏中的NFT资产来提供租赁业务的（而传统游戏公会只负责组队和攻略交流）。</p>
+<p>比如，进入Axie游戏的门槛是需要拥有三个Axie宠物，链游公会可以出借精灵给玩家打金，并抽取一定的分成。所以，有了链游公会之后，玩家就可以“零成本”参与游戏，仅需付出自己的时间和精力即可获得收入。</p>
+</div>
+<div id="stepn昙花一现的x-to-earn" class="section level2 hasAnchor" number="6.2">
+<h2><span class="header-section-number">6.2</span> STEPN：昙花一现的X to Earn<a href="去中心化游戏.html#stepn昙花一现的x-to-earn" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>那么，既然玩游戏可以赚钱，跑步能不能呢？STEPN的答案是，当然可以。</p>
+<p>STEPN 发布于2022年2月，是一款主打“跑步赚钱”的游戏。STEPN虽然把用户赚钱的场景搬到了线下健身，但他们的经济模型和Axie非常相似：一方面，用户需要先购买“虚拟跑鞋”，跑步数据通过GPS定位系统和“虚拟跑鞋”实现数据同步之后，才可以开始“跑步赚钱”；另一方面STEPN主要的游戏机制，也都是围绕游戏代币的奖励和消耗设计的。</p>
+<p><img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/8d75d1aa5fe24723855334ad24427487.jpg" /></p>
+<p>在游戏代币的奖励方面，持有虚拟跑鞋是获得代币奖励的前提条件，而且跑鞋的种类和数量直接影响跑鞋的产出，用户持有一只“鞋子”每天可以获得2个能量值，并且只能在2个能量值之内跑步。虽然这2个能量值只能当天使用，过期即作废，但每个用户持有鞋子的数量是没有上限的，持有多只鞋子甚至可以使能量值组合超过100。</p>
+<p>在游戏代币的消耗方面，STEPN将所有“虚拟跑鞋”分成4大类，每大类又分为30级，同样是跑步消耗一个能量值，但产出却按照级别从低到高逐渐增加，这样就在游戏代币的供给过程中，为游戏代币创造了一个消耗的场景，同样都是“跑步赚币”，谁不希望每天能多赚一点呢？但要想多赚一点，就先要多消耗一点，基本逻辑就是这样。</p>
+<p>而在跑鞋升级之外，还有“Mint跑鞋”也是代币消耗的一个场景。所谓“Mint跑鞋”，简单点说就是“旧鞋生小鞋”，虽然你可能听起来会觉得有点不符合生活经验，但它其实符合游戏玩家的心理需求，所以对于用户来说，接受这个规则并不难。</p>
+<p>那么，相对于Axie来说，STEPN适合的用户群体其实更广，纯玩的用户占比更高。很多人最开始是为了打金而来的，但是在跑步一段时间之后逐渐养成了每天锻炼的习惯，并因此而成为STEPN的长期用户。</p>
+<p>所以在这一系列的操作下，2022年上半年，STEPN上线即成为一个现象级的产品，最高峰的时候日活用户达上万人。但不幸的是，在STEPN用户持续增加的时期，恰逢虚拟资产市场大跳水，比特币价格跌去60%，很多用户高价买的鞋子，跑步获得的奖励代币价格却低得可怜，“跑步赚钱”变成了“付费跑步”，游戏流量在上线不到半年就出现大幅跳水，用户也变成被动接盘。</p>
+<p>我想说的是，从以上两个案例可以看出，不论是卡牌对战，还是跑步健身，在不同的游戏场景下，其实都有一条共同的主线贯穿游戏的整个玩法，那就是用户需要先投入一部分资金才能获得后续获得奖励的机会。所以，对于这类游戏的玩家来说，“回本周期”成为一个非常重要的概念。</p>
+<p>那么，站在资金流的角度，玩家到底能不能通过玩游戏或者跑步赚到钱？如果能的话，这种赚钱效应是普遍的，还是需要具备一定的条件才可以实现？</p>
+<p>接下来，我们就跳出游戏的具体玩法，从经济学的视角针对这些问题进行一次探讨。</p>
+</div>
+<div id="为什么play可以earn" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> 为什么Play可以Earn？<a href="去中心化游戏.html#为什么play可以earn" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>在分析Play to Earn的收益来源之前，我们先回顾一下传统的游戏厂商是如何赚钱的。</p>
+<p>目前来看，付费游戏主要分为两种，一种是先付费买游戏，一种是免费玩游戏，但付费后可以购买更好的体验和更多的内容，即Free to Play。</p>
+<p>不过，“先付费，后体验”的模式已经成为历史了，Free to Play是当前大部分游戏采用的通用模式，然后游戏厂商会在免费游戏的模式下，通过创造各种付费场景实现收入。比如付费解锁关卡/地图、购买皮肤等等，来提升角色能力、减少等待时间，或者是游戏中有植入广告但付费就可以去广告。</p>
+<p>所以，我们从免费游戏的盈利模式中可以看出，在这些游戏的收入中，只有广告收入是来自游戏之外，其他的收入都要靠新玩家或者既有玩家转化为付费玩家才能实现。也就是说，厂商需要把主要的精力放在吸引新玩家、提高玩家留存率和活跃度、提升付费转化率等方面。</p>
+<p>那么，边玩边赚模式的出现，能为游戏的“免费模式”带来哪些影响呢？我们先从NFT为游戏资产赋能的角度开始探究。</p>
+<p>首先，NFT可以通过资产确权为游戏资产赋予价值。基于NFT确权，玩家可以真正拥有这些游戏资产，这种“拥有”不仅体现在控制权方面，还体现在创作权方面。NFT作为一种通用的数据确权制度，游戏玩家不仅可以把自己在游戏内花费的时间和获得的技巧，通过NFT资产的形式展现出来，还第一次获得了游戏资产的“创作权”，并具有与之相关的转让和收益权。这也是我们在前面课程中一直提到的要点。</p>
+<p>其次，NFT资产具有游戏内的使用价值。玩家凭借NFT资产可以在游戏内打金、治理投票、铸造新的NFT等，尽管非区块链游戏在绝大多数情况下也存在这类设计，但是智能合约防作弊的特性，其实也进一步增强了玩家的信心，而且那些具有治理投票系统的游戏还允许玩家用手中的代币决定游戏走向和确保执行。</p>
+<p>第三，NFT资产具有外在价值。这一点是指，玩家获得的NFT资产和游戏代币可以在链上，而不限于仅在游戏内流通，因而能够产生流动性溢价和社交价值，特别是稀有的NFT资产更是一种财富、技能，甚至是社交关系的展现。此外，链上数据的公开性，也使得项目方可以方便地定位到持有稀有属性资产的帐户，并对其开展精准营销。所以这就像我在第5讲中说的，NFT资产同时也具有营销价值。</p>
+<p>通过以上内容，我们可以看出，关于NFT游戏资产的第二和第三条属性，直接增加了游戏资产对于玩家的吸引力，而第一条属性则使得游戏资产供给和需求的结构，发生了根本性变化，游戏商业模式的改变是自然而然发生的。</p>
+<p>所以，基于以上特性，“用户付出时间和数据，所以也应该获得回报”的逻辑，就成为了P2E（Play To Earn）成立的理论基础。</p>
+</div>
+<div id="play-to-earn的宿命赚钱效应还是死亡螺旋" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Play to Earn的宿命，“赚钱效应”还是“死亡螺旋”？<a href="去中心化游戏.html#play-to-earn的宿命赚钱效应还是死亡螺旋" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>那么现在，我们站在盈利性的角度可以分析出来，游戏玩家在P2E模型下的基本行为模式，可以概括为以下几点：</p>
+<ul>
+<li>玩家既是生产者又是消费者，NFT是经济体中的资产；</li>
+<li>玩家进场需要购买NFT，按照游戏规则活动可以获得代币奖励，也可以随时卖出NFT资产离场；</li>
+<li>玩家购入NFT进场，相当于注入初始资本，再投入时间可产出奖励代币和新的NFT；</li>
+<li>游戏玩家获得的奖励代币，一部分可以兑换成稳定币离开经济系统，一部分会被燃烧消耗掉，而还有一部分则以主动复投或被动税收的形式回流系统。</li>
+</ul>
+<p>由此，我们也可以得出P2E游戏的基本生产方程：</p>
+<p><img src="!%5B%5D(https://cdn.mathpix.com/snip/images/Q3Md3-Vi4gkVSoCDcTguKk1us4Maql7RCwFcT0hNkdg.original.fullsize.png)" /></p>
+<p>实际上，在P2E的经济体中，游戏代币就相当于经济体的货币，其相对稳定币的价格就是汇率；资本可以自由进入或退出经济体，但存在离境税；NFT可以根据生息扣除税收，计算当期收益，也可以通过现金流折现法进行估值。</p>
+<p>但游戏的特殊性在于，除了NFT资产本身可以通过打金获得收益之外，喜爱游戏的玩家也愿意为了收藏、娱乐、社交价值支付溢价。</p>
+<p>而这就意味着在一个健康的游戏生态中，如果所有玩家对于未来现金流的观点是一致的，那么最终买单支付游戏性溢价的，其实是真正的游戏玩家，也就是出于兴趣的目标，留存在游戏里的玩家。</p>
+<p>所以，对于NFT资产的估值公式，我们可以表示为</p>
+<p><img src="https://cdn.mathpix.com/snip/images/X1UEiGnkSj72GCkhSjsRMLddd9iTHxuLyzcq-E0Wcf4.original.fullsize.png" /></p>
+<p>OK，我们继续分析上面的公式。假设NFT资产最终以稳定币计价，那么它的资产价格同时也包含了资产收益率和游戏代币汇率的影响。而在关于资产收益率预期趋于一致的情况下，用户对于游戏代币价格的预期，就会成为影响其对资产进行估值的主要因素，即NFT资产估值可以表示为：</p>
+<p><img src="https://cdn.mathpix.com/snip/images/4qUFiyLVsyFa0rdGwjBZJ11juZmuW_SUK5p_OqkRuPU.original.fullsize.png" /></p>
+<p>因此，我们可以将游戏经济看成是一个可变利率、浮动汇率、资本自由流动、货币政策自主的经济体。其中，项目方扮演政府的角色，起到调节税收、资产收益率和利用国库稳定汇率的作用；NFT是最重要的价值承载，其价值也与币价呈现高度相关的关系。</p>
+<p>那么，基于经济体的类比，我们就可以得出以下推论。</p>
+<p>P2E经济体系的基础逻辑，在于以非游戏代币计价的生态进出流量的平衡，但P2E机制对于游戏流量的影响是双向的，一方面可以通过“流量增加叠加代币价格上涨”加速用户积累，另一方面，也会因为“流量减少导致代币价格下跌”产生死亡螺旋。</p>
+<p>事实上，对于P2E游戏来说，游戏资产的交易市场与游戏代币的交易市场，这两个市场的平衡都会对其持续运营产生重要影响。因为在用户追求收益而来参与游戏的前提下，游戏资产的供给管理会变得难度大增，如果新的NFT价值被持续创造出来，却没办法完全被新玩家消化，那么就会对游戏生态造成严重冲击。</p>
+<p>此外，当游戏代币价格向下时，NFT资产估值中的汇率因素也会导致资产估值下跌，如果新玩家流入放缓，二级市场对游戏代币的需求减少，那么也会进一步使得币价承压，游戏陷入死亡螺旋。</p>
+<p>而且对于P2E游戏来说，不一定只有在游戏运营出现困难的时候，才经历“死亡螺旋”，有时候虚拟资产市场大盘的波动，也会使游戏“无症状死亡”。而当陷入死亡螺旋后，估值中的游戏性溢价也不可能增加，因为玩家不会因为NFT便宜了更愿意收藏或炫耀。</p>
+</div>
+<div id="另一种尝试" class="section level2 hasAnchor" number="6.5">
+<h2><span class="header-section-number">6.5</span> 另一种尝试<a href="去中心化游戏.html#另一种尝试" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>其实，还有另外一种尝试，即通过获取外部收入为P2E建立长期模式。</p>
+<p>实际上，我们单纯从Play to Earn的视角来分析游戏，往往看到的是过短的衰退周期，或者不远处的死亡螺旋。</p>
+<p>但是，如果把Play to Earn和实际的商业活动结合起来，也就是把Play to Earn看成是完整商业闭环的一个环节，那么关于Play to Earn的整个经济学分析，就有可能发生改变，从而为游戏的可持续运营寻找另外一种可能。</p>
+<p>Highstreet 就希望通过游戏场景和商业场景的结合，打造一个全新的商业元宇宙。</p>
+<p>Highstreet团队的前身是加拿大的一家虚拟现实技术公司，这家公司计划以MMO RPG（大型多人在线游戏）的形式，打造一个具有购物、品牌体验、游戏和商品交换等功能的商业元宇宙。</p>
+<p>我来简单描述一下这个游戏。它的整体背景是Highstreet World，其中Highstreet City是游戏世界的商业中心，用户进入Highstreet City之后的第一站，是Highstreet Market，Highstreet Market是一个品牌展示和集中进行限量版商品售卖的场所。</p>
+<p>进入Highstreet Market售卖的商品有两种途径：</p>
+<p>一种是已经和Highstreet签署合作协议的品牌，这些品牌大都是现实世界的一些知名品牌，比如台湾的南投开兰茶、美妆品牌欧莱雅等。
+另外一种是类似于在淘宝和京东开店的保证金模式，即商家需要支付一定数量的保证金，以保证在统一的经营框架内开展商业活动。
+根据项目计划，Highstreet未来会采取DAO的治理形式，制定进入Market经营的基本规范，但基本的经营规则会一直存在，而不会将Market发展成经营活动不受任何约束的“绝对自由的交易市场”。</p>
+<p>你可以发现，Highstreet的这种设计，基本上延续了现实世界商业活动的基本准则，也为跟更多的知名品牌建立合作关系奠定了基础。而且细心的话你还可以发现一点，就是在Market进行销售的产品都具有双重属性。</p>
+<p>比如说，假如你购买了一双乔丹的纪念版NFT球鞋，如果你想选择兑换，那么你就会在现实世界里收到一双同款的实物球鞋，同时你获得的NFT球鞋，还可以用在Highstreet City的各种游戏里边。</p>
+<p>另外，Highstreet还支持除房产之外的各类商品的销售（不支持房产销售的主要原因在于，某些市场为房产的买方设置了国籍的限制），也为虚拟商品的转售提供了专门的交易平台，平台可以基于 Bonding curve，也就是联合曲线函数进行自动报价，使虚拟商品可以获得基本的流动性。</p>
+<p>不仅如此，Highstreet还设计了土地和地产系统。这样各个品牌就可以通过土地拍卖，建立自己品牌独占的虚拟空间。而在土地和地产系统之外，Highstreet还设计了各种探险游戏，用户可以在游戏中基于P2E模式获得奖励。</p>
+<p>所以，总的来讲，对于Highstreet来说，虽然他们采取了类似于游戏P2E模式的激励机制，但是游戏并不是Highstreet商业元宇宙的核心主题，Highstreet不仅可以为众多商业品牌提供销售商品的机会，同时还可以为这些品牌提供内容更为丰富的品牌互动，以及基于开放的公开数据账本进行用户搜集和获取的机会。</p>
+<p>Highstreet的商业模式非常清晰，那就是通过为现实世界的商业品牌，提供用户互动的新的空间而获得收入，而P2E模式只是其基于代币激励机制，建立用户粘性的一种手段。在外部价值获取和内部用户激励之间保持一种平衡，就是Highstreet获得可持续生长的基本准则。</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="nft.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="web3-社交.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/05-blocks.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

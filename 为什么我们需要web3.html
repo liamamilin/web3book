@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 为什么我们需要web3 | The key of web3</title>
+  <meta name="description" content="Web3 book" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 为什么我们需要web3 | The key of web3" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Web3 book" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 为什么我们需要web3 | The key of web3" />
+  
+  <meta name="twitter:description" content="Web3 book" />
+  
+
+<meta name="author" content="米霖e" />
+
+
+<meta name="date" content="2024-11-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="公链.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">关于Web3的书</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 新的互联网革命</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#两大矛盾"><i class="fa fa-check"></i><b>1.1</b> 两大矛盾</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#互联网的变革路径"><i class="fa fa-check"></i><b>1.2</b> 互联网的变革路径</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#行动方案"><i class="fa fa-check"></i><b>1.3</b> 行动方案</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html"><i class="fa fa-check"></i><b>2</b> 为什么我们需要web3</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#互联网公司的主宰服务的强大与用户的无力"><i class="fa fa-check"></i><b>2.1</b> 互联网公司的主宰：服务的强大与用户的无力</a></li>
+<li class="chapter" data-level="2.2" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#被困的互联网自由空间的需求"><i class="fa fa-check"></i><b>2.2</b> 被困的互联网：自由空间的需求</a></li>
+<li class="chapter" data-level="2.3" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0一场自下而上的互联网革命"><i class="fa fa-check"></i><b>2.3</b> Web 3.0：一场自下而上的互联网革命</a></li>
+<li class="chapter" data-level="2.4" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0-的全栈架构从硬件到经济系统"><i class="fa fa-check"></i><b>2.4</b> Web 3.0 的“全栈”架构：从硬件到经济系统</a></li>
+<li class="chapter" data-level="2.5" data-path="为什么我们需要web3.html"><a href="为什么我们需要web3.html#web-3.0数据创造拥有与激励的新纪元"><i class="fa fa-check"></i><b>2.5</b> Web 3.0：数据创造、拥有与激励的新纪元</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="公链.html"><a href="公链.html"><i class="fa fa-check"></i><b>3</b> 公链</a>
+<ul>
+<li class="chapter" data-level="3.0.1" data-path="公链.html"><a href="公链.html#从比特币到以太坊"><i class="fa fa-check"></i><b>3.0.1</b> <strong>从比特币到以太坊</strong></a></li>
+<li class="chapter" data-level="3.0.2" data-path="公链.html"><a href="公链.html#以太坊为何被称为世界通用账本"><i class="fa fa-check"></i><b>3.0.2</b> <strong>以太坊为何被称为“世界通用账本”？</strong></a></li>
+<li class="chapter" data-level="3.0.3" data-path="公链.html"><a href="公链.html#ipfs为存储层提供通用解决方案"><i class="fa fa-check"></i><b>3.0.3</b> <strong>IPFS：为存储层提供通用解决方案</strong></a></li>
+<li class="chapter" data-level="3.1" data-path="公链.html"><a href="公链.html#section"><i class="fa fa-check"></i><b>3.1</b> <img src="https://lianglianglee.com/%e4%b8%93%e6%a0%8f/Web%203.0%e5%85%a5%e5%b1%80%e6%94%bb%e7%95%a5/assets/9c08355c095d4ac280c4027542656d6c.jpg" /></a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="公链.html"><a href="公链.html#internet-computer专为-web-3.0-应用而生的公链"><i class="fa fa-check"></i><b>3.1.1</b> <strong>Internet Computer：专为 Web 3.0 应用而生的公链</strong></a></li>
+<li class="chapter" data-level="3.1.2" data-path="公链.html"><a href="公链.html#以太坊仍是领导者"><i class="fa fa-check"></i><b>3.1.2</b> <strong>以太坊仍是领导者</strong></a></li>
+<li class="chapter" data-level="3.1.3" data-path="公链.html"><a href="公链.html#总结"><i class="fa fa-check"></i><b>3.1.3</b> <strong>总结</strong></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="身份和激励.html"><a href="身份和激励.html"><i class="fa fa-check"></i><b>4</b> 身份和激励</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="身份和激励.html"><a href="身份和激励.html#did通用的独立身份"><i class="fa fa-check"></i><b>4.1</b> DID：通用的独立身份！</a></li>
+<li class="chapter" data-level="4.2" data-path="身份和激励.html"><a href="身份和激励.html#did的应用从身份的集成到运用"><i class="fa fa-check"></i><b>4.2</b> DID的应用，从身份的集成到运用</a></li>
+<li class="chapter" data-level="4.3" data-path="身份和激励.html"><a href="身份和激励.html#did的生态架构"><i class="fa fa-check"></i><b>4.3</b> DID的生态架构</a></li>
+<li class="chapter" data-level="4.4" data-path="身份和激励.html"><a href="身份和激励.html#通证系统更精细的激励工具"><i class="fa fa-check"></i><b>4.4</b> 通证系统：更精细的激励工具</a></li>
+<li class="chapter" data-level="4.5" data-path="身份和激励.html"><a href="身份和激励.html#通证的本质"><i class="fa fa-check"></i><b>4.5</b> 通证的本质</a>
+<ul>
+<li class="chapter" data-level="4.5.1" data-path="身份和激励.html"><a href="身份和激励.html#通证经济"><i class="fa fa-check"></i><b>4.5.1</b> 通证经济</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="nft.html"><a href="nft.html"><i class="fa fa-check"></i><b>5</b> NFT</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="nft.html"><a href="nft.html#nft数字社会的数据确权制度"><i class="fa fa-check"></i><b>5.1</b> NFT：数字社会的数据确权制度</a></li>
+<li class="chapter" data-level="5.2" data-path="nft.html"><a href="nft.html#基于低成本及永久产权的文化发现"><i class="fa fa-check"></i><b>5.2</b> 基于低成本及永久产权的文化发现</a></li>
+<li class="chapter" data-level="5.3" data-path="nft.html"><a href="nft.html#pfp从小图片到身份表达再到社区筛选"><i class="fa fa-check"></i><b>5.3</b> PFP：从“小图片”到“身份表达”，再到社区筛选</a></li>
+<li class="chapter" data-level="5.4" data-path="nft.html"><a href="nft.html#透明表达nft在数字化营销中的商业价值"><i class="fa fa-check"></i><b>5.4</b> 透明表达：NFT在数字化营销中的商业价值</a></li>
+<li class="chapter" data-level="5.5" data-path="nft.html"><a href="nft.html#可编程性赋予nft无限可能的应用"><i class="fa fa-check"></i><b>5.5</b> 可编程性：赋予NFT无限可能的应用</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="去中心化游戏.html"><a href="去中心化游戏.html"><i class="fa fa-check"></i><b>6</b> 去中心化游戏</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="去中心化游戏.html"><a href="去中心化游戏.html#axie-infinityplay-to-earn的开创者"><i class="fa fa-check"></i><b>6.1</b> Axie Infinity：Play to Earn的开创者！</a></li>
+<li class="chapter" data-level="6.2" data-path="去中心化游戏.html"><a href="去中心化游戏.html#stepn昙花一现的x-to-earn"><i class="fa fa-check"></i><b>6.2</b> STEPN：昙花一现的X to Earn</a></li>
+<li class="chapter" data-level="6.3" data-path="去中心化游戏.html"><a href="去中心化游戏.html#为什么play可以earn"><i class="fa fa-check"></i><b>6.3</b> 为什么Play可以Earn？</a></li>
+<li class="chapter" data-level="6.4" data-path="去中心化游戏.html"><a href="去中心化游戏.html#play-to-earn的宿命赚钱效应还是死亡螺旋"><i class="fa fa-check"></i><b>6.4</b> Play to Earn的宿命，“赚钱效应”还是“死亡螺旋”？</a></li>
+<li class="chapter" data-level="6.5" data-path="去中心化游戏.html"><a href="去中心化游戏.html#另一种尝试"><i class="fa fa-check"></i><b>6.5</b> 另一种尝试</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="web3-社交.html"><a href="web3-社交.html"><i class="fa fa-check"></i><b>7</b> Web3 社交</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="web3-社交.html"><a href="web3-社交.html#社交商业模式及其去中心化重构"><i class="fa fa-check"></i><b>7.1</b> 社交商业模式及其去中心化重构</a></li>
+<li class="chapter" data-level="7.2" data-path="web3-社交.html"><a href="web3-社交.html#web-2.0中心化社交商业模式是如何运行的"><i class="fa fa-check"></i><b>7.2</b> Web 2.0中心化社交商业模式是如何运行的？</a></li>
+<li class="chapter" data-level="7.3" data-path="web3-社交.html"><a href="web3-社交.html#web-3.0去中心化社交创新关键点代币化"><i class="fa fa-check"></i><b>7.3</b> Web 3.0去中心化社交创新关键点：代币化</a></li>
+<li class="chapter" data-level="7.4" data-path="web3-社交.html"><a href="web3-社交.html#mirror去中心化内容发布平台"><i class="fa fa-check"></i><b>7.4</b> Mirror：去中心化内容发布平台</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="web3-社交.html"><a href="web3-社交.html#新的工具资助伟大的写作"><i class="fa fa-check"></i><b>7.4.1</b> “新的工具，资助伟大的写作”</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="web3-社交.html"><a href="web3-社交.html#愿景的实现路径"><i class="fa fa-check"></i><b>7.5</b> 愿景的实现路径</a></li>
+<li class="chapter" data-level="7.6" data-path="web3-社交.html"><a href="web3-社交.html#lens-protocol可组合和去中心化的社交图"><i class="fa fa-check"></i><b>7.6</b> Lens Protocol：可组合和去中心化的社交图</a></li>
+<li class="chapter" data-level="7.7" data-path="web3-社交.html"><a href="web3-社交.html#maskbook以隐私的名义把用户链接起来"><i class="fa fa-check"></i><b>7.7</b> MaskBook：以隐私的名义把用户链接起来</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html"><i class="fa fa-check"></i><b>8</b> Defi 区块链金融</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#区块链对金融基础设施的影响"><i class="fa fa-check"></i><b>8.1</b> 区块链对金融基础设施的影响</a>
+<ul>
+<li class="chapter" data-level="8.1.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#自助式开户"><i class="fa fa-check"></i><b>8.1.1</b> 自助式开户</a></li>
+<li class="chapter" data-level="8.1.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#清算即结算"><i class="fa fa-check"></i><b>8.1.2</b> 清算即结算</a></li>
+<li class="chapter" data-level="8.1.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#条件式交易"><i class="fa fa-check"></i><b>8.1.3</b> 条件式交易</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#法定数字货币cbdc"><i class="fa fa-check"></i><b>8.2</b> 法定数字货币CBDC</a></li>
+<li class="chapter" data-level="8.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#供应链金融多种数据技术配合服务实体经济"><i class="fa fa-check"></i><b>8.3</b> 供应链金融：多种数据技术配合服务实体经济</a></li>
+<li class="chapter" data-level="8.4" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#如何理解-defi"><i class="fa fa-check"></i><b>8.4</b> 如何理解 Defi</a></li>
+<li class="chapter" data-level="8.5" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi的三大特点"><i class="fa fa-check"></i><b>8.5</b> DeFi的三大特点</a></li>
+<li class="chapter" data-level="8.6" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi的典型商业模式"><i class="fa fa-check"></i><b>8.6</b> DeFi的典型商业模式</a>
+<ul>
+<li class="chapter" data-level="8.6.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#去中心化交易"><i class="fa fa-check"></i><b>8.6.1</b> 去中心化交易</a></li>
+<li class="chapter" data-level="8.6.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#抵押借贷"><i class="fa fa-check"></i><b>8.6.2</b> 抵押借贷</a></li>
+</ul></li>
+<li class="chapter" data-level="8.7" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#defi领域里值得关注的两个问题"><i class="fa fa-check"></i><b>8.7</b> DeFi领域里值得关注的两个问题</a>
+<ul>
+<li class="chapter" data-level="8.7.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#抵押借贷的系统性风险"><i class="fa fa-check"></i><b>8.7.1</b> 抵押借贷的系统性风险</a></li>
+<li class="chapter" data-level="8.7.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动池锁仓量可以引发蝴蝶效应"><i class="fa fa-check"></i><b>8.7.2</b> 流动池锁仓量可以引发蝴蝶效应</a></li>
+<li class="chapter" data-level="8.7.3" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#稳定币基本面的重要性"><i class="fa fa-check"></i><b>8.7.3</b> 稳定币基本面的重要性</a></li>
+</ul></li>
+<li class="chapter" data-level="8.8" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动性挖矿的风险"><i class="fa fa-check"></i><b>8.8</b> 流动性挖矿的风险</a>
+<ul>
+<li class="chapter" data-level="8.8.1" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#流动性挖矿的收益风险问题"><i class="fa fa-check"></i><b>8.8.1</b> 流动性挖矿的收益风险问题</a></li>
+<li class="chapter" data-level="8.8.2" data-path="defi-区块链金融.html"><a href="defi-区块链金融.html#为争夺流动性挖矿奖励产生的多层嵌套问题"><i class="fa fa-check"></i><b>8.8.2</b> 为争夺流动性挖矿奖励产生的多层嵌套问题</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="未来.html"><a href="未来.html"><i class="fa fa-check"></i><b>9</b> 未来</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="未来.html"><a href="未来.html#预见"><i class="fa fa-check"></i><b>9.1</b> 预见</a></li>
+<li class="chapter" data-level="9.2" data-path="未来.html"><a href="未来.html#选择"><i class="fa fa-check"></i><b>9.2</b> 选择</a></li>
+<li class="chapter" data-level="9.3" data-path="未来.html"><a href="未来.html#新机会"><i class="fa fa-check"></i><b>9.3</b> 新机会</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/liamamilin" target="blank">简单的Web3</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">The key of web3</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="为什么我们需要web3" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> 为什么我们需要web3<a href="为什么我们需要web3.html#为什么我们需要web3" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>互联网：未曾成熟却已老去</strong></p>
+<p>要理解 Web 3.0 的诞生动因，我们需要回顾互联网的发展历程和现状。</p>
+<p>互联网的兴起奠定了人类迈入信息社会的基石。一方面，它极大降低了信息记录的成本；另一方面，只有当信息总量达到一定规模后，才能对社会和经济活动产生显著影响。</p>
+<p>在上世纪 90 年代，互联网的诞生为信息传播打开了新的渠道，孕育了一批专业内容生产平台（PGC，Professionally Generated Content），如一些以专门化内容为核心的平台。然而，这一时期的互联网是单向的，用户仅能被动接收信息，而数据的产生与用户几乎无关——这是 <strong>Web 1.0 时代</strong>。</p>
+<p>随着时间推移，用户逐渐不满足“只能输入而无法输出”的状态，渴望表达的需求催生了一大批互动性平台，如 Facebook（现 Meta）和 Twitter。同时，电商平台、视频网站等也纷纷涌现，为用户提供参与和互动的机会。这一阶段标志着互联网进入 <strong>Web 2.0 时代</strong>。</p>
+<p><img src="https://cdn.mathpix.com/snip/images/eklfhSgXInlOyBHuX7-7uqQz8A6QseqPD-vLCFJRay4.original.fullsize.png" /></p>
+<hr />
+<div id="互联网公司的主宰服务的强大与用户的无力" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> 互联网公司的主宰：服务的强大与用户的无力<a href="为什么我们需要web3.html#互联网公司的主宰服务的强大与用户的无力" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>在 Web 2.0 时代，用户的行为数据成为互联网公司的核心资产。然而，这些数据被“存储即拥有”，而非“谁创造谁拥有”。这种模式使互联网公司凭借数据资源迅速壮大，同时也引发了与公众利益的深刻冲突。</p>
+<p>举例来说，2021 年，Meta（原 Facebook）的市值曾一度突破 <strong>1 万亿美元</strong>，相当于全球 GDP 排名的前 15 名。拥有 19 亿日活用户和 29 亿月活用户，Meta 的平台已深入全球 36% 的人口生活。然而，这种规模的垄断意味着用户的网络行为完全受控于平台规则。例如，用户发送消息或发表观点必须遵循平台的政策，否则可能面临“社交性死亡”，甚至像特朗普一样遭遇禁言。</p>
+<p>互联网公司的控制不仅限于社交领域。例如，在支付领域，用户的一笔转账必须通过金融机构完成，如果遇上非营业时间，甚至可能无法执行。而即便一些机构提供免费的服务，它们的背后仍隐藏着广告或贷款推荐等商业利益。</p>
+<p>这意味着，虽然互联网服务看似赋予用户极大便利，但用户实际上被互联网巨头“绑架”，在这些公司精心设计的制度面前毫无议价空间。互联网变得越来越强大，但也越来越像一头“灰犀牛”，将私人利益强加为社会规则。</p>
+<hr />
+</div>
+<div id="被困的互联网自由空间的需求" class="section level2 hasAnchor" number="2.2">
+<h2><span class="header-section-number">2.2</span> 被困的互联网：自由空间的需求<a href="为什么我们需要web3.html#被困的互联网自由空间的需求" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>近年来，互联网巨头的主宰不仅带来了经济利益的不平衡，也引发了一系列社会问题。</p>
+<p>一方面， <strong>数据泄露与隐私问题</strong> 越来越严重，网络暴力和数据滥用对用户生活的负面影响不容忽视。例如，2022 年，Facebook 承认其用户数据被剑桥分析公司非法使用，影响了 5000 万用户，并被用于特朗普的竞选活动。</p>
+<p>另一方面，互联网公司的行为可能直接与国家利益产生冲突。2021 年，澳大利亚政府推出《新闻媒体和数字平台强制议价规则》，要求互联网平台为新闻内容支付费用。然而，Facebook 不愿接受这一规则，直接屏蔽了澳大利亚政府及机构的所有信息发布功能，包括疫情防控等紧急信息。这一事件凸显了私人公司对公共利益的严重威胁。</p>
+<p>互联网公司通过提供服务积累了巨大的社会影响力，但当私人利益凌驾于公共利益之上时，市场失灵的弊端就显现无遗。互联网的发展急需一个既能平衡商业属性与社会属性，又能为创新提供空间的新起点。</p>
+<hr />
+</div>
+<div id="web-3.0一场自下而上的互联网革命" class="section level2 hasAnchor" number="2.3">
+<h2><span class="header-section-number">2.3</span> Web 3.0：一场自下而上的互联网革命<a href="为什么我们需要web3.html#web-3.0一场自下而上的互联网革命" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Web 3.0 的使命正是解决当前互联网的局限性。它不仅是一次技术架构的开放性重塑，更是一场旨在改变互联网“精神气质”的革命。</p>
+<p>目前，Web 3.0 的定义尚未完全统一，但以太坊前 CTO Gavin Wood 将其描述为“通过区块链和去中心化协议支持的新一代互联网”，这一描述为我们提供了清晰的方向。Web 3.0 的核心是 <strong>功能协议化</strong>，这些协议没有更多的利益诉求，仅按照规则运行，通过自由组合实现协作与创新。</p>
+<p>例如，Web 2.0 中的支付平台（如支付宝）承担了交易担保的角色，但同时绑定了借贷等商业模式，对市场竞争产生了抑制。而在 Web 3.0 中，这一功能将由“哈希时间锁协议”（HTLC）这样的去中心化协议完成，消除了对单一平台的依赖，为市场带来更公平的竞争环境。</p>
+<hr />
+</div>
+<div id="web-3.0-的全栈架构从硬件到经济系统" class="section level2 hasAnchor" number="2.4">
+<h2><span class="header-section-number">2.4</span> Web 3.0 的“全栈”架构：从硬件到经济系统<a href="为什么我们需要web3.html#web-3.0-的全栈架构从硬件到经济系统" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Web 3.0 的实现需要两大支柱：<strong>硬件系统</strong> 和 <strong>经济系统</strong>。</p>
+<p><strong>硬件系统</strong><br />
+Web 3.0 的硬件基础是分布式技术架构，通过通信、计算、存储和交互等层面的协议化设计，消除了对单一机构的依赖。这种架构的特性被称为 <strong>“去信任的信任”（Trustless Trust）</strong>。例如，基于区块链共识的 IC 协议通过虚拟子网实现了数据计算的高效协作，克服了传统架构中的单点故障问题。</p>
+<p><strong>经济系统</strong><br />
+硬件之外，Web 3.0 需要一套围绕用户身份认证、数据记录、授权与激励的经济系统。区块链为这套系统提供了基础，通过代币机制激励参与者，协调协议间的利益分配。这种经济系统不仅实现了协作的高效性，也创造了更多的创新机会。</p>
+<hr />
+</div>
+<div id="web-3.0数据创造拥有与激励的新纪元" class="section level2 hasAnchor" number="2.5">
+<h2><span class="header-section-number">2.5</span> Web 3.0：数据创造、拥有与激励的新纪元<a href="为什么我们需要web3.html#web-3.0数据创造拥有与激励的新纪元" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>虽然从用户体验上看，Web 3.0 可能与 Web 2.0 并无太大区别，但它背后的技术逻辑和商业模式却完全不同。Web 3.0 将通过分布式技术和经济系统的结合，打造一个高度连接、无国界的数字经济体。这场变革赋予了用户对数据的创造、拥有和激励权，为我们带来了全新的产业机会和创新空间。</p>
+<p>Web 3.0 是一次“破坏性创新”，它不仅重塑了互联网的架构，还为数字经济注入了新的生命力。对于这片新大陆，行动比心动更重要。探索 Web 3.0 的机会，不仅是技术发展的趋势，更可能是每个人成为历史参与者的一次重要契机。</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="公链.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-intro.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
